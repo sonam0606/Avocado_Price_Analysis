@@ -17,10 +17,11 @@ This Analysis Plan focuses on documenting the steps and the analyses techniques 
 In this report we have briefly discussed about Data Analysis Plan, Data Preprocessing and our different analyses on the data. We have included code snippets, graphs and plots of our Analyses.
 
 ## Introduction:
-Avocado is a popular fruit in the United States and its price has continued to spike over the years due to its year-round demand, especially from millennials. According to the Department of Agriculture weekly retail price report, the average national price of a Hass avocado was $1.6 on March 4, 2018 compared to $1 from March 6, 2016. In order to better understand the demand and price trend over the years, we decided to proceed with time series analysis. The chosen Hass Avocado Board (HAB) data has over 18,000 observations and is comprised of weekly time series data spanning 168 weeks from January 4, 2015, to March 25, 2018. The data provides average price and total volume of two main Hass avocado types; conventional and organic avocados in 54 regions of the United States. The following time series report intends to analyze,
-●	the extent to which the average price of avocados is affected by years.
-●	variation in the average price for organic and conventional avocado across Chicago.
-●	and predict the next 10 weeks of data for both organic and conventional types with the best parsimonious models.
+
+The data provides average price and total volume of two main Hass avocado types; conventional and organic avocados in 54 regions of the United States. The following time series report intends to analyze,
+*	The extent to which the average price of avocados is affected by years.
+*	Variation in the average price for organic and conventional avocado across Chicago.
+*	Predict the next 10 weeks of data for both organic and conventional types with the best parsimonious models.
 
 ## Dataset Description:
 The data on Hass avocado prices and sales volume in multiple US markets was downloaded from Kaggle, which was originally from Hass Avocado Board website dated March,2018. The below variables are weekly 2018 retail scan data for National retail volume (avocado units) and price. 
